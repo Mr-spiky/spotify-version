@@ -73,6 +73,7 @@ then open the given http://localhost:3000 in browser.
 **📸 Preview**
 
 ![App Screenshot](./img/spotify.png)
+![vercel live](https://spotify-version.vercel.app/)
 
 
 **🙌 Notes**
