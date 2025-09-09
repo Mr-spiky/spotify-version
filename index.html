@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spotify - Web Player: Music for everyone</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/utility.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+        integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+    <div class="nav">
+        <div class="nleft">
+            <img class="hamburgur invert" src="/img/hamburgur.svg" alt="">
+            <ul class="ul-1">
+                <li><img src="/img/logo.svg" alt="logo" class="logo invert"></li>
+                <li><img src="/img/home.svg" alt="home" class="nav-icon invert"></li>
+                <li class="searchbar">
+                    <img src="/img/search.svg" alt="search" class="search-icon">
+                    <input type="search" placeholder="What do you want to play?">
+                    <img src="/img/browse.svg" alt="browse" class="browse-icon invert">
+                </li>
+            </ul>
+        </div>
+
+        <div class="nright">
+            <ul class="ul-2">
+                <li>Premium</li>
+                <li>Support</li>
+                <li>Download</li>
+            </ul>
+            <ul class="ul-3">
+                <li>Install App</li>
+                <li>Sign up</li>
+                <li><input type="submit" value="Log in"></li>
+            </ul>
+        </div>
+    </div>
+
+    <!-- Main Container -->
+    <div class="container">
+        <!-- Left Sidebar -->
+        <div class="left">
+            <h1 class="library-title">
+                <img src="/img/library.svg" alt="Library" class="library-icon invert">
+                Your Library
+                <i class="plus-btn">+</i>
+                <div class="close">
+                    <img src="/img/close.svg" alt="" class="closebtn invert">
+                </div>
+            </h1>
+
+            <!-- Scrollable Library Content -->
+            <div class="library-content">
+                <div class="songslist">
+                    <ul></ul>
+                </div>
+            </div>
+
+            <!-- Footer Links -->
+            <div class="links">
+                <a href="#">Legal</a>
+                <a href="#">Safety & Privacy Center</a>
+                <a href="#">Privacy Policy</a>
+                <a href="#">Cookies</a>
+                <a href="#">About Ads</a>
+                <a href="#">Accessibility</a>
+            </div>
+
+            <!-- Language Button -->
+            <button class="language-btn">🌍 English</button>
+        </div>
+
+        <!-- Right Side (Other Content) -->
+        <div class="right">
+            <div class="row row2">
+                <div class="top">
+                    <h1>Popular Playlists</h1>
+                    <li><a href="">Show all</a></li>
+                </div>
+                <div class="cards">
+                    <!-- Cards will be populated by JavaScript -->
+                </div>
+            </div>
+        </div>
+        
+        <div class="playbar">
+            <div class="seekbar">
+                <div class="circle"></div>
+            </div>
+            <div class="abovebar invert">
+                <div class="songinfo">Select a song to play</div>
+                <div class="songbuttons">
+                    <img id="previous" src="/img/prevsong.svg" alt="Previous">
+                    <img id="play" src="/img/playsong.svg" alt="Play">
+                    <img id="next" src="/img/nextsong.svg" alt="Next">
+                </div>
+                <div class="timevol">
+                    <div class="sound">
+                        <img src="/img/volume.svg" alt="Volume">
+                        <div class="range">
+                            <input type="range" name="volume" min="0" max="100" value="80">
+                        </div>
+                    </div>
+                    <div class="songtime">00:00 / 00:00</div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="js/script.js"></script>
+</body>
+</html>
