@@ -70,10 +70,13 @@ then open the given http://localhost:3000 in browser.
 - Strengthen skills in basic CSS layouts.
 - Understand project structuring for music apps.
 
+## 🚀 Live Demo
+👉 [Click here to try the live version]([https://your-vercel-app.vercel.app/](https://spotify-version.vercel.app/))
+
 **📸 Preview**
 
 ![App Screenshot](./img/spotify.png)
-![vercel live](https://spotify-version.vercel.app/)
+
 
 
 **🙌 Notes**
