@@ -72,6 +72,8 @@ then open the given http://localhost:3000 in browser.
 
 **📸 Preview**
 
+![App Screenshot](./img/spotify.png)
+
 
 **🙌 Notes**
 
