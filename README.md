@@ -71,7 +71,7 @@ then open the given http://localhost:3000 in browser.
 - Understand project structuring for music apps.
 
 ## 🚀 Live Demo
-👉 [Click here to try the live version]([https://your-vercel-app.vercel.app/](https://spotify-version.vercel.app/))
+👉 [Click here to try the live version](https://spotify-version.vercel.app/)
 
 **📸 Preview**
 
